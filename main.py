@@ -137,7 +137,7 @@ async def help_command(message: types.Message):
     await message.answer(text=h_MESSAGE, parse_mode="html")
     await message.delete()
 @dp.message_handler(commands=['description'])
-async def help_command(message: types.Message):
+async def description_command(message: types.Message):
     await message.answer(text=f'Привет!\nЭтот бот создан для прокачки определенной группы мышц!\nРад видеть тебя {message.from_user.full_name}!\n\nТелеграм-бот для тренировок в спортзале помогает пользователям быстро и удобно найти информацию о том, как правильно качать определенную группу мышц. Бот предоставляет подробные инструкции и рекомендации по выбору упражнений, количеству повторений и весу, необходимым для достижения желаемого результата.\n\nПользователи могут выбрать группу мышц, которую они хотели бы развить, например, грудные мышцы, бицепсы или квадрицепсы.')
     await message.delete()
 
