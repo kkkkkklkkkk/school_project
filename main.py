@@ -1,5 +1,5 @@
 
-TOKEN = '5996822625:AAFdfL3lK79gTZ2ckxQ5Uq9ym1KBlbRM35M'
+TOKEN = 'x'
 from aiogram import Bot, Dispatcher, executor, types
 from aiogram.types import InlineKeyboardButton, InlineKeyboardMarkup, ReplyKeyboardMarkup, KeyboardButton
 bot = Bot(TOKEN)
